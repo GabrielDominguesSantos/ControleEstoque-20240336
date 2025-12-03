@@ -73,7 +73,7 @@ Utilize um cliente HTTP como Postman ou Insomnia para testar a API em: ```http:/
   "nome": "Eduardo",
   "email": "eduardoaluno@gmail.com",
   "telefone": "19995863358"
-…
+}
 ```
 
 #### Fornecedor
