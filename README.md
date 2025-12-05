@@ -10,7 +10,7 @@ O principal objetivo deste projeto foi consolidar e aprimorar habilidades em Jav
 - **Banco de Dados:** MySQL (configurado via Xampp)  
 ## Demonstração
 
-[![Vídeo Demonstrativo]()]()  
+[Vídeo Demonstrativo](https://youtu.be/HVsAoxcrGe8)  
 
 ## 2. Guia de Instalação e Execução
 
@@ -65,7 +65,7 @@ Utilize um cliente HTTP como Postman ou Insomnia para testar a API em: ```http:/
 ### POST/Criar
 
 #### Cliente
-**EndPoint**: ```/api/clientes``` 
+**EndPoint**: ```https://localhost:8080/api/clientes``` 
 
 **Template de JSON**
 ```json
@@ -77,7 +77,7 @@ Utilize um cliente HTTP como Postman ou Insomnia para testar a API em: ```http:/
 ```
 
 #### Fornecedor
-**Endpoint**: ```/api/fornecedores```
+**Endpoint**: ```https://localhost:8080/api/fornecedores```
 
 **Template de JSON**
 ```json
@@ -88,7 +88,7 @@ Utilize um cliente HTTP como Postman ou Insomnia para testar a API em: ```http:/
 ```
 
 #### Categoria
-**Endpoint**: ```/api/categorias```
+**Endpoint**: ```https://localhost:8080/api/categorias```
 
 **Template de JSON**
 ```json
@@ -99,7 +99,7 @@ Utilize um cliente HTTP como Postman ou Insomnia para testar a API em: ```http:/
 ```
 
 #### Produto
-**Endpoint**: ```/api/produtos```
+**Endpoint**: ```https://localhost:8080/api/produtos```
 
 **Template de JSON**
 ```json
@@ -118,7 +118,7 @@ Utilize um cliente HTTP como Postman ou Insomnia para testar a API em: ```http:/
 ```
 
 #### Venda
-**Endpoint**: ```/api/vendas```
+**Endpoint**: ```https://localhost:8080/api/vendas```
 
 **Template de JSON**
 ```json
@@ -171,7 +171,7 @@ Utilize um cliente HTTP como Postman ou Insomnia para testar a API em: ```http:/
 ### PUT/Atualizar
 
 #### Cliente: 
-**Endpoint**: ```/api/clientes/{id}```
+**Endpoint**: ```https://localhost:8080/api/clientes/{id}```
 
 **Template de JSON**
 ```json
@@ -183,7 +183,7 @@ Utilize um cliente HTTP como Postman ou Insomnia para testar a API em: ```http:/
 
 ```
 #### Fornecedor:
-**Endpoint**: ```/api/fornecedores/{id}```
+**Endpoint**: ```https://localhost:8080/api/fornecedores/{id}```
 
 **Template de JSON**
 ```json
@@ -194,7 +194,7 @@ Utilize um cliente HTTP como Postman ou Insomnia para testar a API em: ```http:/
 ```
 
 #### Categoria:
-**Endpoint**: ```/api/categorias/{id}```
+**Endpoint**: ```https://localhost:8080/api/categorias/{id}```
 
 **Template de JSON**
 ```json
@@ -205,7 +205,7 @@ Utilize um cliente HTTP como Postman ou Insomnia para testar a API em: ```http:/
 ```
 
 #### Produto:
-**Endpoint**: ```/api/produtos/{id}```
+**Endpoint**: ```https://localhost:8080/api/produtos/{id}```
 
 **Template de JSON**
 ```json
